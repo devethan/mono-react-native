@@ -1,0 +1,9 @@
+{
+  "name": "mono-react-native",
+  "version": "0.0.1",
+  "description": "React-native Code Share with mono-repo",
+  "repository": "https://github.com/devethan/mono-react-native.git",
+  "author": "Ethan Lee",
+  "license": "MIT",
+  "private": false
+}
