@@ -1,9 +1,16 @@
 {
   "name": "mono-react-native",
   "version": "0.0.1",
+  "private": true,
   "description": "React-native Code Share with mono-repo",
   "repository": "https://github.com/devethan/mono-react-native.git",
   "author": "Ethan Lee",
   "license": "MIT",
-  "private": false
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
