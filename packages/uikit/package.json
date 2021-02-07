@@ -2,22 +2,35 @@
   "name": "@enoveh/uikit",
   "version": "0.0.1",
   "description": "UIKit for React-native",
-  "author": "devethan <devohno.ko@gmail.com>",
-  "homepage": "",
+  "author": "enoveh <devohno.ko@gmail.com>",
   "license": "ISC",
   "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/devethan/mono-react-native/packages/uikit"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/styled-components-react-native": "^5.1.1"
+  },
+  "peerDependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "styled-components": "^5.2.1"
   }
 }
