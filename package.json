@@ -7,8 +7,8 @@
   "author": "Ethan Lee",
   "license": "MIT",
   "scripts": {
-    "storybook:ios": "lerna run ios --scope @enoveh/storybook --stream && yarn run ui:start",
-    "storybook:android": "lerna run android --scope @enoveh/storybook --stream && yarn run ui:start",
+    "mobile:ios": "lerna run ios --scope @enoveh/dailist-mobile --stream && yarn run ui:start",
+    "mobile:android": "lerna run android --scope @enoveh/dailist-mobile --stream && yarn run ui:start",
     "ui:start": "lerna run start --scope @enoveh/uikit --include-dependencies --stream",
     "ui:build": "lerna run build --scope @enoveh/uikit --include-dependencies --stream",
     "test": "lerna run test --stream",
