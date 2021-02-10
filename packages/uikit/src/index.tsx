@@ -1,3 +1,4 @@
-import Button from "./components/Button";
+import Button from './components/Button';
+import Typography from './components/Typography';
 
-export { Button };
+export {Button, Typography};
