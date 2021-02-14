@@ -17,6 +17,7 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
+        <Typography variants="heading">Button</Typography>
         <Button onPress={() => null}>
           <Typography>Button</Typography>
         </Button>
