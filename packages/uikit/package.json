@@ -2,7 +2,7 @@
   "name": "@enoveh/uikit",
   "version": "0.0.1",
   "description": "UIKit for React-native",
-  "author": "enoveh <devohno.ko@gmail.com>",
+  "author": "enoveh <enoveh@gmail.com>",
   "license": "ISC",
   "main": "dist/index.js",
   "directories": {
